@@ -1,10 +1,12 @@
-# 作者：小麥
+# encoding: utf-8
 
 schema:
   schema_id: array10
-  name: 行列 10
+  name: "行列 10"
   version: "1.0"
   author:
+    - 發明人 廖明德先生
+    - 碼表 https://github.com/gontera/array10
     - 小麥 <a302854888@gmail.com>
   description: |
     行列 10 好用欸
