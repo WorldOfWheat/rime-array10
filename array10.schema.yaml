@@ -42,6 +42,8 @@ switches:
   - name: ascii_mode
     reset: 0
     states: [ 中文, 英文 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
 
 translator:
   dictionary: array10

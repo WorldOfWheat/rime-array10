@@ -972,7 +972,7 @@ preset_keys:
 
 preset_keyboards:  
   symbols:
-    name: 符號 - 改
+    name: 符號
     author: "天真可愛的滿滿"
     ascii_mode: 1
     width: 10
@@ -1025,7 +1025,7 @@ preset_keyboards:
     - {click: Return, long_click: select_all, width: 15}
 
   qwerty0:
-    name: 預設36鍵 - 改
+    name: 預設36鍵
     author: "osfans <waxaca@163.com>"
     ascii_mode: 1
     width: 10
@@ -1090,7 +1090,7 @@ preset_keyboards:
     lock: false
 
   number:
-    name: 預設數字 - 改
+    name: 預設數字
     author: "osfans <waxaca@163.com>"
     width: 20
     height: 44
@@ -1117,13 +1117,13 @@ preset_keyboards:
     - {click: '.'}
     - {click: ','}
     - {click: '='}
-    - {click: Keyboard_array10}
+    - {click: Keyboard_array10} 
     - {click: space}
     - {click: BackSpace}
     - {click: Return}
 
   array10:
-    name: 行列 10
+    name: "行列 10"
     author: "小麥 <a302854888@gmail.com>"
     ascii_mode: 0
     width: 20
