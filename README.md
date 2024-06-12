@@ -6,6 +6,16 @@
 
 但我也非常歡迎其它人幫忙移植到其它平台，幫這個輸入法移植到更多平台
 
+# 如何使用該輸入法
+首先你要先有上述提到的 ![Trime](https://github.com/osfans/trime)，並且你需要找到一個名為 `rime` 的資料夾，之後把這裡所有名為 array10 東西都複製進去。
+
+我自己在測試的時候需要在 `rime/build` 內新建 config 檔，可以參考該專案 `build` 內的檔案。
+
+`Schemata` 和 `Theme & Color/Themes` 皆需要啟用。
+
+# 如何更改鍵盤配置
+我建議僅更改 `array10.trime.yaml` 這個檔案，並且可以參考 Trime 官方文件。
+
 # 特別感謝
 行列輸入法發明人 - 廖明德
 
@@ -16,7 +26,8 @@
 
 ![Rime 官方文件](https://github.com/rime/home/wiki/)
 
-![Android 上的 RIME 输入法 trime 同文输入法使用](https://einverne.github.io/post/2021/04/use-trime-input-method-rime-on-android.html)
+![Trime 官方文件](https://github.com/osfans/trime/wiki)
 
+![Android 上的 RIME 输入法 trime 同文输入法使用](https://einverne.github.io/post/2021/04/use-trime-input-method-rime-on-android.html)
 
 ![关于以数字键小键盘为输入方式的纵横码配置 #718](https://github.com/rime/home/discussions/718)
