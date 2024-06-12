@@ -1117,7 +1117,7 @@ preset_keyboards:
     - {click: '.'}
     - {click: ','}
     - {click: '='}
-    - {click: Keyboard_array10} 
+    - {click: Keyboard_letter} 
     - {click: space}
     - {click: BackSpace}
     - {click: Return}
