@@ -1143,8 +1143,8 @@ preset_keyboards:
 
     - {click: Keyboard_number}
     - {click: '7'}
-    - {click: '8'}
-    - {click: '9'}
+    - {click: '8', long_click: '，'}
+    - {click: '9', long_click: '。'}
     - {click: Delete}
 
     - {click: Keyboard_symbols}
