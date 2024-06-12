@@ -978,16 +978,16 @@ preset_keyboards:
     width: 10
     height: 44
     keys:
-    - {click: '1'}
-    - {click: '2'}
-    - {click: '3'}
-    - {click: '4'}
-    - {click: '5'}
-    - {click: '6'}
-    - {click: '7'}
-    - {click: '8'}
-    - {click: '9'}
-    - {click: '0'}
+    - {click: 'KP_1'}
+    - {click: 'KP_2'}
+    - {click: 'KP_3'}
+    - {click: 'KP_4'}
+    - {click: 'KP_5'}
+    - {click: 'KP_6'}
+    - {click: 'KP_7'}
+    - {click: 'KP_8'}
+    - {click: 'KP_9'}
+    - {click: 'KP_0'}
     - {click: '~',long_click: '`'}
     - {click: '!'}
     - {click: '@'}
@@ -1025,23 +1025,23 @@ preset_keyboards:
     - {click: Return, long_click: select_all, width: 15}
 
   qwerty0:
-    name: 預設36鍵
+    name: 預設36鍵 - 改
     author: "osfans <waxaca@163.com>"
     ascii_mode: 1
     width: 10
     height: 44
     lock: false
     keys:
-    - {click: '1', long_click: '!'}
-    - {click: '2', long_click: '@'}
-    - {click: '3', long_click: '#'}
-    - {click: '4', long_click: '$'}
-    - {click: '5', long_click: '%'}
-    - {click: '6', long_click: '^'}
-    - {click: '7', long_click: '&'}
-    - {click: '8', long_click: '*'}
-    - {click: '9', long_click: '('}
-    - {click: '0', long_click: ')'}
+    - {click: 'KP_1', long_click: '!'}
+    - {click: 'KP_2', long_click: '@'}
+    - {click: 'KP_3', long_click: '#'}
+    - {click: 'KP_4', long_click: '$'}
+    - {click: 'KP_5', long_click: '%'}
+    - {click: 'KP_6', long_click: '^'}
+    - {click: 'KP_7', long_click: '&'}
+    - {click: 'KP_8', long_click: '*'}
+    - {click: 'KP_9', long_click: '('}
+    - {click: 'KP_0', long_click: ')'}
 
     - {click: 'q'}
     - {click: 'w'}
@@ -1090,7 +1090,7 @@ preset_keyboards:
     lock: false
 
   number:
-    name: 預設數字
+    name: 預設數字 - 改
     author: "osfans <waxaca@163.com>"
     width: 20
     height: 44
