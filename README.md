@@ -9,7 +9,7 @@
 # 如何使用該輸入法
 首先你要先有上述提到的 ![Trime](https://github.com/osfans/trime)，並且你需要找到一個名為 `rime` 的資料夾，之後把這裡所有名為 array10 東西都複製進去。
 
-我自己在測試的時候需要在 `rime/build` 內新建 config 檔，可以參考該專案 `build` 內的檔案。
+如果你的 Trime 跟我一樣沒有辦法在 `Schemata` 找到行列 10，那麼請你連同 `build` 資料夾一起複製進 `rime` 資料夾。
 
 `Schemata` 和 `Theme & Color/Themes` 皆需要啟用。
 
