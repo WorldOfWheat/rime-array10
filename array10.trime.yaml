@@ -1030,7 +1030,7 @@ preset_keyboards:
     ascii_mode: 1
     width: 10
     height: 44
-    lock: false
+    lock: true
     keys:
     - {click: 'KP_1', long_click: '!'}
     - {click: 'KP_2', long_click: '@'}
@@ -1046,7 +1046,7 @@ preset_keyboards:
     - {click: 'q'}
     - {click: 'w'}
     - {click: 'e'}
-    - {click: 'r'}
+    - {click: 'r', long_click: 'redo'}
     - {click: 't'}
     - {click: 'y'}
     - {click: 'u'}
@@ -1087,7 +1087,7 @@ preset_keyboards:
   letter:
     __include: /preset_keyboards/qwerty0
     ascii_mode: 1
-    lock: false
+    lock: true
 
   number:
     name: 預設數字 - 改
@@ -1128,6 +1128,7 @@ preset_keyboards:
     ascii_mode: 0
     width: 20
     height: 44
+    lock: true
     keys:
     - {click: Keyboard_letter}
     - {click: '1', long_click: cut}
