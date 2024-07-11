@@ -43,8 +43,3 @@ translator:
 
 speller:
   alphabet: "1234567890"
-
-switches:
-  - name: ascii_mode
-    reset: 0
-    states: [ 台文, ABC ]
