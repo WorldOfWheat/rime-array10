@@ -31,3 +31,5 @@
 ![Android 上的 RIME 输入法 trime 同文输入法使用](https://einverne.github.io/post/2021/04/use-trime-input-method-rime-on-android.html)
 
 ![关于以数字键小键盘为输入方式的纵横码配置 #718](https://github.com/rime/home/discussions/718)
+
+![預設鍵盤檔 trime 3.2.14 只剩注音](https://github.com/oniondelta/Onion_Trime_Files/issues/1)
