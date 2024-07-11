@@ -72,7 +72,7 @@ style:
   preview_offset: -12 #按鍵提示縱向偏移
   preview_text_size: 40 #按鍵提示字號
   proximity_correction: true #按鍵糾錯
-  reset_ascii_mode: false #顯示鍵盤時重置爲中文狀態
+  reset_ascii_mode: true #切换键盘、重新弹出键盘时，是否重置到当前 keyboard 指定的 ascii_mode 描述的状态
   round_corner: 8 #按鍵圓角半徑
   shadow_radius: 0.0 #按鍵陰影半徑
   speech_opencc_config: s2t.json #語音輸入簡繁轉換
@@ -974,7 +974,9 @@ preset_keyboards:
   symbols:
     name: 符號
     author: "天真可愛的滿滿"
-    ascii_mode: 0
+    reset_ascii_mode: true #切换键盘、重新弹出键盘时，是否重置到当前 keyboard 指定的 ascii_mode 描述的状态
+    ascii_mode: 1 #0
+    lock: false
     width: 10
     height: 44
     keys:
@@ -1028,7 +1030,8 @@ preset_keyboards:
   qwerty0:
     name: 預設36鍵 - 改
     author: "osfans <waxaca@163.com>"
-    ascii_mode: 0
+    reset_ascii_mode: true #切换键盘、重新弹出键盘时，是否重置到当前 keyboard 指定的 ascii_mode 描述的状态
+    ascii_mode: 1 #0
     width: 10
     height: 44
     lock: true
@@ -1087,20 +1090,20 @@ preset_keyboards:
 
   letter:
     __include: /preset_keyboards/qwerty0
-    ascii_mode: 0
-    lock: true
 
   number:
     name: 預設數字 - 改
     author: "osfans <waxaca@163.com>"
+    reset_ascii_mode: true #切换键盘、重新弹出键盘时，是否重置到当前 keyboard 指定的 ascii_mode 描述的状态
+    ascii_mode: 1 #0
     width: 20
     height: 44
-    ascii_mode: 0
+    lock: false
     keys:
     - {click: '+'}
-    - {click: 'KP_1'}
-    - {click: 'KP_2'}
-    - {click: 'KP_3'}
+    - {click: 'KP_7'}
+    - {click: 'KP_8'}
+    - {click: 'KP_9'}
     - {click: '#'}
     - {click: '-'}
     - {click: 'KP_4'}
@@ -1108,13 +1111,13 @@ preset_keyboards:
     - {click: 'KP_6'}
     - {click: '%'}
     - {click: '*'}
-    - {click: 'KP_7'}
-    - {click: 'KP_8'}
-    - {click: 'KP_9'}
+    - {click: 'KP_1'}
+    - {click: 'KP_2'}
+    - {click: 'KP_3'}
     - {click: ':'}
     - {click: '/'}
-    - {click: '±'}
-    - {click: 'KP_0'}
+
+    - {click: 'KP_0', width: 40}
     - {click: '.'}
     - {click: ','}
     - {click: '='}
@@ -1126,12 +1129,13 @@ preset_keyboards:
   array10:
     name: "行列 10"
     author: "小麥 <a302854888@gmail.com>"
-    ascii_mode: 0
+    reset_ascii_mode: true #切换键盘、重新弹出键盘时，是否重置到当前 keyboard 指定的 ascii_mode 描述的状态
+    ascii_mode: 0 #0
     width: 20
     height: 44
     lock: true
     keys:
-    - {click: Keyboard_letter}
+    - {click: Keyboard_letter, long_click: Mode_switch}
     - {click: '1', long_click: cut}
     - {click: '2', long_click: copy}
     - {click: '3', long_click: paste}
@@ -1144,13 +1148,13 @@ preset_keyboards:
     - {click: space}
 
     - {click: Keyboard_number}
-    - {click: '7'}
+    - {click: '7', long_click: '？'}
     - {click: '8', long_click: '，'}
     - {click: '9', long_click: '。'}
     - {click: Delete}
 
     - {click: Keyboard_symbols}
     - {click: Left}
-    - {click: '0'}
+    - {click: '0', long_click: '！'}
     - {click: Right}
     - {click: Return, composing: Return1}
